@@ -23,8 +23,7 @@ class _ProfilePageState extends State<ProfilePage> {
               padding: const EdgeInsets.only(right: 20, top: 50),
               child: Text(
                 "Mixing\nUP",
-                style: kTextWhiteScreamBold.copyWith(
-                    color: kPrimaryColor, fontSize: 40),
+                style: kTextScream.copyWith(color: kPrimaryColor, fontSize: 40),
                 textAlign: TextAlign.right,
               ),
             ),
@@ -62,7 +61,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                   child: const Text(
                     "LOGOUT",
-                    style: kTextWhiteScreamBold,
+                    style: kTextScream,
                   ),
                   onPressed: () {},
                 ),

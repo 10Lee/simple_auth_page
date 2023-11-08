@@ -58,7 +58,7 @@ class _AuthPageState extends State<AuthPage> {
                       Center(
                         child: Text(
                           "Mixing\nUP",
-                          style: kTextWhiteScreamBold.copyWith(
+                          style: kTextScream.copyWith(
                             fontSize: 50,
                             color: kPrimaryColor,
                           ),
@@ -124,7 +124,7 @@ class _AuthPageState extends State<AuthPage> {
                                 child: Center(
                                     child: Text(
                                   "Login",
-                                  style: kTextWhiteScreamBold.copyWith(
+                                  style: kTextScream.copyWith(
                                     fontSize: 15,
                                   ),
                                 )),

@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Center(
           child: Text(
             "Mixing\nUP",
-            style: kTextWhiteScreamBold.copyWith(fontSize: 50),
+            style: kTextScream.copyWith(fontSize: 50),
             textAlign: TextAlign.center,
           ),
         ),

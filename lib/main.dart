@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:simple_authentication_ui/pages/profile_page.dart';
+import 'package:simple_authentication_ui/pages/splash_screen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ProfilePage(),
+      home: const SplashScreen(),
     );
   }
 }
