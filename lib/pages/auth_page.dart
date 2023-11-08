@@ -56,13 +56,9 @@ class _AuthPageState extends State<AuthPage> {
                     children: [
                       SizedBox(height: MediaQuery.of(context).size.height / 4),
                       Center(
-                        child: Text(
-                          "Mixing\nUP",
-                          style: kTextScream.copyWith(
-                            fontSize: 50,
-                            color: kPrimaryColor,
-                          ),
-                          textAlign: TextAlign.center,
+                        child: Image.asset(
+                          kLogoCenterGreen,
+                          width: MediaQuery.of(context).size.width / 1.5,
                         ),
                       ),
                       const SizedBox(height: 40),

@@ -21,10 +21,9 @@ class _ProfilePageState extends State<ProfilePage> {
             alignment: Alignment.topRight,
             child: Padding(
               padding: const EdgeInsets.only(right: 20, top: 50),
-              child: Text(
-                "Mixing\nUP",
-                style: kTextScream.copyWith(color: kPrimaryColor, fontSize: 40),
-                textAlign: TextAlign.right,
+              child: Image.asset(
+                kLogoRightGreen,
+                width: MediaQuery.of(context).size.width / 2,
               ),
             ),
           ),

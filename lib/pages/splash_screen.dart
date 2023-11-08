@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simple_authentication_ui/utils/colors.dart';
-import 'package:simple_authentication_ui/utils/text.dart';
+import 'package:simple_authentication_ui/utils/images.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -18,10 +18,9 @@ class _SplashScreenState extends State<SplashScreen> {
         width: MediaQuery.of(context).size.width,
         color: kPrimaryColor,
         child: Center(
-          child: Text(
-            "Mixing\nUP",
-            style: kTextScream.copyWith(fontSize: 50),
-            textAlign: TextAlign.center,
+          child: Image.asset(
+            kLogoCenterWhite,
+            width: MediaQuery.of(context).size.width / 2,
           ),
         ),
       ),
