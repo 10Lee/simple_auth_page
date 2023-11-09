@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
         color: kPrimaryColor,
         child: Center(
           child: Image.asset(
-            kLogoCenterWhite,
+            kLogoWhite,
             width: MediaQuery.of(context).size.width / 2,
           ),
         ),

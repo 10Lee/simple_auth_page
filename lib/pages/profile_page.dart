@@ -18,12 +18,12 @@ class _ProfilePageState extends State<ProfilePage> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Align(
-            alignment: Alignment.topRight,
+            alignment: Alignment.topLeft,
             child: Padding(
-              padding: const EdgeInsets.only(right: 20, top: 50),
+              padding: const EdgeInsets.only(left: 20, top: 50),
               child: Image.asset(
-                kLogoRightGreen,
-                width: MediaQuery.of(context).size.width / 2,
+                kLogoGreen,
+                width: MediaQuery.of(context).size.width / 3,
               ),
             ),
           ),

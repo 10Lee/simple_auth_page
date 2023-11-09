@@ -57,8 +57,8 @@ class _AuthPageState extends State<AuthPage> {
                       SizedBox(height: MediaQuery.of(context).size.height / 4),
                       Center(
                         child: Image.asset(
-                          kLogoCenterGreen,
-                          width: MediaQuery.of(context).size.width / 1.5,
+                          kLogoGreen,
+                          width: MediaQuery.of(context).size.width / 2,
                         ),
                       ),
                       const SizedBox(height: 40),
